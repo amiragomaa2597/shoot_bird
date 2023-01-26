@@ -1,0 +1,98 @@
+.box{
+  cursor:pointer;
+    margin: auto;
+    width: 50%;
+    position: relative;
+    display: block;
+    margin-top:5%;
+  
+          
+}
+body {
+  cursor:pointer;
+
+    overflow: hidden;
+    margin: 0px;
+    height: 100%;
+    background-image: url("background.jpg");
+    
+  }   
+  button{
+    cursor:pointer;
+
+
+    border-radius:25px;
+    width :25%;
+    background-color: rgba(14, 237, 58, 0.7);
+    border : 5px solid rgba(14, 237, 58);
+    margin: 0;
+    width: 30%;
+    font-family: inherit;
+    font-size: inherit;
+  }  
+  
+  .hideBox{
+    visibility: hidden;
+  }
+  div{
+    border-radius:25px;
+    width:15%;
+    display:inline-block;
+    margin-left:2%;
+    margin-right:2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding:0.25cm;
+    color : white;
+        font-size: larger;
+        font-family:fantasy;
+        background: rgba(215, 200, 200, 0.7);
+        border: 4px solid rgb(245, 243, 241);
+        color : black;
+  }
+
+  .container
+  {
+    background-color: rgba(226, 209, 209, 0);;
+    border : none;
+    width :100%;
+  }
+
+  img{
+    position:absolute;
+    width :40px ;
+    z-index: -1;
+  }
+
+  .logo
+  {
+    margin-right:5%;
+    margin-top:5%;
+  }
+
+ .flip {
+    transform: scaleX(-1);
+    }
+  #canvas
+  {
+    cursor:pointer;
+
+    position :relative;
+    width :95%;
+    height: 90%;
+    background-color:rgba(226, 209, 209, 0);
+    border : none ;
+  }
+#shoot{
+z-index:1;
+}
+.birds_live
+{
+
+    visibility: show;
+
+}
+.birds_killed
+{
+  visibility: hidden;
+}
